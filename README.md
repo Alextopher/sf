@@ -1,2 +1,2 @@
 # sf
-WIP Go library for parsing sound fonts
+This is a Go library for parsing sound fonts I worked on for a day. I followed the [soundfont specification](https://freepats.zenvoid.org/sf2/sfspec24.pdf). It was pretty easy and fun to parse the file format. Once it came time to start generating sounds and I understood the scale, I thought it would be easier to call into a project like [FluidSynth](https://github.com/FluidSynth/fluidsynth) with CGO or create a virtual midi device and communicate with the OS.
